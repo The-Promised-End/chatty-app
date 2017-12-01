@@ -64,7 +64,7 @@ class App extends Component {
     if (tempMessage.type === 'Notification') {
       this.sendNotification(
         this.state.currentUser.name +
-          ' has changed named to ' +
+          ' has changed their name to ' +
           content.newUsername
       );
       this.state.currentUser.name = content.newUsername;
