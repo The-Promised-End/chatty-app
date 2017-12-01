@@ -12,7 +12,7 @@ class MessageList extends Component {
         username={message.username}/>
     });
     return (
-        <div className="messages">
+        <div className='messages'>
           {messageComponents}
 {/*          <div className="message system">
            Anonymous1 changed their name to nomnom.
@@ -22,4 +22,3 @@ class MessageList extends Component {
   }
 }
 export default MessageList;
-console.log("Rendering <MessageList />");
